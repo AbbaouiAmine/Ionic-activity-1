@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button="" menuToggle="" (click)="onToggleMenu()">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Réglage</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Modifier les Reglage de l'application ici</p>
+  <ion-card>
+    <ion-card-header>Données</ion-card-header>
+    <ion-card-content>
+      <button ion-button block outline (click)="onSaveList()">Enregistrer</button>
+      <button ion-button block outline (click)="onFetchist()">Récupérer</button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
